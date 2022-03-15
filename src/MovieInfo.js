@@ -21,7 +21,7 @@ function MovieInfo() {
         setDetails(movieInfo.data)
     })
 
-  }, []);
+  }, [movie_id]);
   
     return (
     <section className="poster">
